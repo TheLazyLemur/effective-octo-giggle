@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1188dd19-d87b-401d-8383-d27857f60f6b" name="Default Changelist" comment="" />
+    <list default="true" id="1188dd19-d87b-401d-8383-d27857f60f6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Prefabs/ObjectToPool.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Prefabs/ObjectToPool.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/scene_MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/scene_MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/scene_Preloader.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/scene_Preloader.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +34,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/SetupUtils.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1550059145259" expanded="true" signature="50:203" ph="{...}" />
+                <marker date="1550059145259" expanded="true" signature="103:201" ph="{...}" />
+                <marker date="1550059145259" expanded="true" signature="138:195" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/BaseJobObjectExample.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="651">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
-                <marker date="1549878712064" expanded="false" signature="6:32" ph="..." />
-                <marker date="1549878712064" expanded="true" signature="83:535" ph="{...}" />
-                <marker date="1549878712064" expanded="true" signature="366:533" ph="{...}" />
+                <marker date="1550063890911" expanded="false" signature="6:52" ph="..." />
+                <marker date="1550063890911" expanded="true" signature="99:1835" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="145:1647" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="322:409" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="439:830" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="548:820" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="622:806" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="885:1523" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="940:1114" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="1034:1100" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="1161:1487" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="1580:1641" ph="{...}" />
+                <marker date="1550063890911" expanded="true" signature="1707:1833" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/AccelerationParallelFor.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1549878712059" expanded="false" signature="6:85" ph="..." />
-                <marker date="1549878712059" expanded="true" signature="146:2671" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="554:1026" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="785:945" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1083:1375" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1290:1369" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1421:1904" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1620:1898" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1643:1811" ph="/* here, i'm intentionally using the index to affect acceleration (it looks cool), ... */" />
-                <marker date="1549878712059" expanded="true" signature="1930:2470" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="1988:2167" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="2218:2306" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="2500:2552" ph="{...}" />
-                <marker date="1549878712059" expanded="true" signature="2582:2669" ph="{...}" />
+                <marker date="1550069403280" expanded="true" signature="65:635" ph="{...}" />
+                <marker date="1550069403280" expanded="true" signature="111:633" ph="{...}" />
+                <marker date="1550069403280" expanded="true" signature="230:288" ph="{...}" />
+                <marker date="1550069403280" expanded="true" signature="319:516" ph="{...}" />
+                <marker date="1550069403280" expanded="true" signature="549:627" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding>
+                <marker date="1550063749629" expanded="true" signature="65:631" ph="{...}" />
+                <marker date="1550063749629" expanded="true" signature="120:629" ph="{...}" />
+                <marker date="1550063749629" expanded="true" signature="261:623" ph="{...}" />
+                <marker date="1550063749629" expanded="true" signature="320:613" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,10 +106,27 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/SetupUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BaseJobObjectExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AccelerationParallelFor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/ObjectPooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/PoolObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPooler.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs" />
+      </list>
+    </option>
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -82,6 +145,7 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -89,12 +153,48 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="Object_Pooling" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="Object_Pooling" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="Utility" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -145,11 +245,13 @@
       <option name="presentableId" value="Default" />
       <updated>1549961384279</updated>
       <workItem from="1549961385548" duration="745000" />
+      <workItem from="1550059102238" duration="3621000" />
+      <workItem from="1550062782148" duration="2945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="745000" />
+    <option name="totallyTimeSpent" value="7311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -162,24 +264,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -187,14 +279,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Unity" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24975026" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,44 +316,67 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/SetupUtils.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SetupUtils.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/BaseJobObjectExample.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/AccelerationParallelFor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/ObjectPooler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BaseJobObjectExample.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
-            <marker date="1549878712064" expanded="false" signature="6:32" ph="..." />
-            <marker date="1549878712064" expanded="true" signature="83:535" ph="{...}" />
-            <marker date="1549878712064" expanded="true" signature="366:533" ph="{...}" />
+            <marker date="1550059145259" expanded="true" signature="50:203" ph="{...}" />
+            <marker date="1550059145259" expanded="true" signature="103:201" ph="{...}" />
+            <marker date="1550059145259" expanded="true" signature="138:195" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/AccelerationParallelFor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="651">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
-            <marker date="1549878712059" expanded="false" signature="6:85" ph="..." />
-            <marker date="1549878712059" expanded="true" signature="146:2671" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="554:1026" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="785:945" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1083:1375" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1290:1369" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1421:1904" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1620:1898" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1643:1811" ph="/* here, i'm intentionally using the index to affect acceleration (it looks cool), ... */" />
-            <marker date="1549878712059" expanded="true" signature="1930:2470" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="1988:2167" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="2218:2306" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="2500:2552" ph="{...}" />
-            <marker date="1549878712059" expanded="true" signature="2582:2669" ph="{...}" />
+            <marker date="1550063890911" expanded="false" signature="6:52" ph="..." />
+            <marker date="1550063890911" expanded="true" signature="99:1835" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="145:1647" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="322:409" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="439:830" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="548:820" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="622:806" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="885:1523" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="940:1114" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="1034:1100" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="1161:1487" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="1580:1641" ph="{...}" />
+            <marker date="1550063890911" expanded="true" signature="1707:1833" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <marker date="1550063749629" expanded="true" signature="65:631" ph="{...}" />
+            <marker date="1550063749629" expanded="true" signature="120:629" ph="{...}" />
+            <marker date="1550063749629" expanded="true" signature="261:623" ph="{...}" />
+            <marker date="1550063749629" expanded="true" signature="320:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1550069403280" expanded="true" signature="65:635" ph="{...}" />
+            <marker date="1550069403280" expanded="true" signature="111:633" ph="{...}" />
+            <marker date="1550069403280" expanded="true" signature="230:288" ph="{...}" />
+            <marker date="1550069403280" expanded="true" signature="319:516" ph="{...}" />
+            <marker date="1550069403280" expanded="true" signature="549:627" ph="{...}" />
           </folding>
         </state>
       </provider>

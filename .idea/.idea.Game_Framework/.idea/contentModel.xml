@@ -6,9 +6,20 @@
     <e p="D:\Unity Projects\Game_Framework" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AccelerationParallelFor.cs" t="Include" />
-        <e p="BaseJobObjectExample.cs" t="Include" />
-        <e p="SetupUtils.cs" t="Include" />
+        <e p="_Src" t="Include">
+          <e p="Systems" t="Include">
+            <e p="Object_Pooling" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ObjectInstantiation.cs" t="Include" />
+                <e p="ObjectPool.cs" t="Include" />
+                <e p="Projectile.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utility" t="Include">
+              <e p="DontDestroyOnLoad.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="Game_Framework.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
