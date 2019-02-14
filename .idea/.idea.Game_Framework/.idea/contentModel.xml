@@ -11,7 +11,7 @@
             <e p="Menu_&amp;_Settings" t="Include">
               <e p="Scripts" t="Include">
                 <e p="MainMenu.cs" t="Include" />
-                <e p="PauseMenu.cs" t="Include" />
+                <e p="PauseSystem.cs" t="Include" />
                 <e p="SettingsMenu.cs" t="Include" />
               </e>
             </e>
@@ -22,9 +22,9 @@
                 <e p="Projectile.cs" t="Include" />
               </e>
             </e>
-            <e p="TestGame.cs" t="Include" />
             <e p="Utility" t="Include">
               <e p="DontDestroyOnLoad.cs" t="Include" />
+              <e p="GameOverseer.cs" t="Include" />
             </e>
           </e>
         </e>

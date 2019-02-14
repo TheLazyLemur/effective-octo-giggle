@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
-public class PauseMenu : MonoBehaviour
+public class PauseSystem : MonoBehaviour
 {
-    public static PauseMenu Instance;
-
+    public static PauseSystem Instance;
     public GameObject pausePanel;
+    private bool _paused;
 
     private void Awake()
     {
@@ -12,18 +14,12 @@ public class PauseMenu : MonoBehaviour
             Instance = this;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PauseGame();
-        }
-    }
 
     public void PauseGame()
     {
         pausePanel.SetActive(true);
         Time.timeScale = 0;
+        _paused = true;
         
         //Trigger pause game event
     }
@@ -32,12 +28,18 @@ public class PauseMenu : MonoBehaviour
     {
         pausePanel.SetActive(false);
         Time.timeScale = 1;
-
+        _paused = false;
+        
         //Trigger resume game event
     }
 
-    public void QuitGame()
+    public void QuitToMainMenu()
     {
-        Application.Quit();
+        SceneManager.LoadScene(0);
+    }
+
+    public bool IsPaused()
+    {
+        return _paused;
     }
 }

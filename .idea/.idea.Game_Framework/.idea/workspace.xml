@@ -4,6 +4,18 @@
     <list default="true" id="1188dd19-d87b-401d-8383-d27857f60f6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Game Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Game Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Main Audio Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Main Audio Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Menu Example Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Menu Example Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Prefabs/MAIN MENU.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Prefabs/MAIN MENU.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Prefabs/PAUSE MENU.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Prefabs/PAUSE MENU.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,49 +41,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="540">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1550136566497" expanded="true" signature="6:43" ph="..." />
-                <marker date="1550136566497" expanded="true" signature="86:549" ph="{...}" />
-                <marker date="1550136566497" expanded="true" signature="191:281" ph="{...}" />
-                <marker date="1550136566497" expanded="true" signature="327:416" ph="{...}" />
-                <marker date="1550136566497" expanded="true" signature="460:547" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <marker date="1550143628629" expanded="true" signature="58:723" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="159:230" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="257:360" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="309:354" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="389:509" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="539:653" ph="{...}" />
-                <marker date="1550143628629" expanded="true" signature="681:721" ph="{...}" />
+                <marker date="1550147834718" expanded="true" signature="6:43" ph="..." />
+                <marker date="1550147834718" expanded="true" signature="141:1324" ph="{...}" />
+                <marker date="1550147834718" expanded="true" signature="498:930" ph="{...}" />
+                <marker date="1550147834718" expanded="true" signature="974:1064" ph="{...}" />
+                <marker date="1550147834718" expanded="true" signature="1106:1195" ph="{...}" />
+                <marker date="1550147834718" expanded="true" signature="1235:1322" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="960">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <marker date="1550143359339" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550143359339" expanded="true" signature="117:252" ph="{...}" />
-                <marker date="1550143359339" expanded="true" signature="175:250" ph="{...}" />
+                <marker date="1550148926069" expanded="false" signature="6:86" ph="..." />
+                <marker date="1550148926069" expanded="true" signature="128:825" ph="{...}" />
+                <marker date="1550148926069" expanded="true" signature="256:327" ph="{...}" />
+                <marker date="1550148926069" expanded="true" signature="357:501" ph="{...}" />
+                <marker date="1550148926069" expanded="true" signature="531:678" ph="{...}" />
+                <marker date="1550148926069" expanded="true" signature="712:759" ph="{...}" />
+                <marker date="1550148926069" expanded="true" signature="787:823" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/GameOverseer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <marker date="1550149687920" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550149687920" expanded="true" signature="121:311" ph="{...}" />
+                <marker date="1550149687920" expanded="true" signature="149:309" ph="{...}" />
+                <marker date="1550149687920" expanded="true" signature="237:303" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,10 +101,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/GameOverseer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,10 +117,13 @@
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/GameObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PasueSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/Utility/GameOverseer.cs" />
       </list>
     </option>
   </component>
@@ -116,10 +133,10 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2860" />
-    <option name="y" value="-32" />
-    <option name="width" value="2048" />
-    <option name="height" value="1118" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -147,6 +164,13 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="_Src" type="1045f7f1:UnityExplorerNode" />
               <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="Menu_&amp;_Settings" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -229,12 +253,12 @@
       <workItem from="1549961385548" duration="745000" />
       <workItem from="1550059102238" duration="3621000" />
       <workItem from="1550062782148" duration="3061000" />
-      <workItem from="1550134638242" duration="4519000" />
+      <workItem from="1550134638242" duration="10978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11946000" />
+    <option name="totallyTimeSpent" value="18405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,10 +270,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26652452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -364,6 +388,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/GameObserver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/MainMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -377,51 +415,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Utility/GameOverseer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1550149687920" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550149687920" expanded="true" signature="121:311" ph="{...}" />
+            <marker date="1550149687920" expanded="true" signature="149:309" ph="{...}" />
+            <marker date="1550149687920" expanded="true" signature="237:303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1550148926069" expanded="false" signature="6:86" ph="..." />
+            <marker date="1550148926069" expanded="true" signature="128:825" ph="{...}" />
+            <marker date="1550148926069" expanded="true" signature="256:327" ph="{...}" />
+            <marker date="1550148926069" expanded="true" signature="357:501" ph="{...}" />
+            <marker date="1550148926069" expanded="true" signature="531:678" ph="{...}" />
+            <marker date="1550148926069" expanded="true" signature="712:759" ph="{...}" />
+            <marker date="1550148926069" expanded="true" signature="787:823" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/SettingsMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1550136566497" expanded="true" signature="6:43" ph="..." />
-            <marker date="1550136566497" expanded="true" signature="86:549" ph="{...}" />
-            <marker date="1550136566497" expanded="true" signature="191:281" ph="{...}" />
-            <marker date="1550136566497" expanded="true" signature="327:416" ph="{...}" />
-            <marker date="1550136566497" expanded="true" signature="460:547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/GameObserver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/TestGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <marker date="1550143359339" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550143359339" expanded="true" signature="117:252" ph="{...}" />
-            <marker date="1550143359339" expanded="true" signature="175:250" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/Menu_&amp;_Settings/Scripts/PauseMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <marker date="1550143628629" expanded="true" signature="58:723" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="159:230" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="257:360" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="309:354" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="389:509" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="539:653" ph="{...}" />
-            <marker date="1550143628629" expanded="true" signature="681:721" ph="{...}" />
+            <marker date="1550147834718" expanded="true" signature="6:43" ph="..." />
+            <marker date="1550147834718" expanded="true" signature="141:1324" ph="{...}" />
+            <marker date="1550147834718" expanded="true" signature="498:930" ph="{...}" />
+            <marker date="1550147834718" expanded="true" signature="974:1064" ph="{...}" />
+            <marker date="1550147834718" expanded="true" signature="1106:1195" ph="{...}" />
+            <marker date="1550147834718" expanded="true" signature="1235:1322" ph="{...}" />
           </folding>
         </state>
       </provider>
