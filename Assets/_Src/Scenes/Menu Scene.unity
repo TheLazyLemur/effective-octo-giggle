@@ -112,6 +112,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &794902315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5579084604925148875, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+    type: 3}
+  m_PrefabInstance: {fileID: 5579084604925148870}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c303d84267e9675458b94dc9debdcae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &799413991
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +295,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.1792453, g: 0.1750178, b: 0.1750178, a: 0}
+  m_BackGroundColor: {r: 0.14901961, g: 0.14901961, b: 0.14901961, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -440,6 +452,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084604749391706, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8.299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 794902315}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SaveSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 5579084606545535866, guid: 3899dc4bf0ad01148b6f3a81d8489b49,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3899dc4bf0ad01148b6f3a81d8489b49, type: 3}

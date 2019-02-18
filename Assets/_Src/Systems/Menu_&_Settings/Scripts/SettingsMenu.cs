@@ -8,45 +8,52 @@ public class SettingsMenu : MonoBehaviour
     [SerializeField] private AudioMixer audioMixer;
 
     [FormerlySerializedAs("_masterSlider")] [SerializeField]
-    private Slider masterSlider;
+    public Slider masterSlider;
 
     [FormerlySerializedAs("_musicSlider")] [SerializeField]
-    private Slider musicSlider;
+    public Slider musicSlider;
 
     [FormerlySerializedAs("_sfxSlider")] [SerializeField]
-    private Slider sfxSlider;
+    public Slider sfxSlider;
+
+    public static SettingsMenu Instance;
 
     private void Awake()
     {
-        audioMixer.GetFloat("MasterVolume", out var masterVolume);
-        MasterVolume(masterVolume);
-        masterSlider.value = masterVolume;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
 
-        audioMixer.GetFloat("MusicVolume", out var musicVolume);
-        MasterVolume(musicVolume);
-        musicSlider.value = musicVolume;
+    private void Start()
+    {
+        var settingsLoad = new SaveSettingsSystem();
+        settingsLoad.Load();
+    }
 
-        audioMixer.GetFloat("SFXVolume", out var sfxVolume);
-        MasterVolume(sfxVolume);
-        sfxSlider.value = sfxVolume;
+    public void SaveSettings()
+    {
+        var settingsLoad = new SaveSettingsSystem();
+        settingsLoad.Save();
     }
 
 
     public void MasterVolume(float value)
     {
         audioMixer.SetFloat("MasterVolume", value);
-        Debug.Log(value);
+        masterSlider.value = value;
     }
 
     public void MusicVolume(float value)
     {
         audioMixer.SetFloat("MusicVolume", value);
-        Debug.Log(value);
+        musicSlider.value = value;
     }
 
     public void SfxVolume(float value)
     {
         audioMixer.SetFloat("SFXVolume", value);
-        Debug.Log(value);
+        sfxSlider.value = value;
     }
 }
