@@ -18,7 +18,7 @@ public struct SaveProgressSystem : ISaveSystem
         if (!Directory.Exists(SAVE_FOLDER + "/Progress"))
         {
             Directory.CreateDirectory(SAVE_FOLDER + "/Progress");
-        }
+        }     
 
         var currentSaveNumber = 0;
 
@@ -26,6 +26,31 @@ public struct SaveProgressSystem : ISaveSystem
         {
             currentSaveNumber++;
         }
+        
+        
+        var dirInfo = new DirectoryInfo(SAVE_FOLDER + "/Progress");
+
+        var files = dirInfo.GetFiles("*.json");
+
+        FileInfo oldest = null;
+        
+        if (files.Length == 3)
+        {
+            foreach (var fileInfo in files)
+            {
+                if (oldest == null)
+                {
+                    oldest = fileInfo;
+                }
+                else
+                {
+                    if (fileInfo.LastWriteTime < oldest.LastWriteTime)
+                        oldest = fileInfo;
+                }
+            }
+        }
+
+        oldest?.Delete();
 
         var saveObject = new SaveProgressObject()
         {

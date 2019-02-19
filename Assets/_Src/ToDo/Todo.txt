@@ -1,7 +1,0 @@
-Game Framework : 
-	- Level unlock
-	- Character unlock
-	- Cinematic system
-	
-Botanist Specific : 
-	- Start setting up VR framework(fork)
