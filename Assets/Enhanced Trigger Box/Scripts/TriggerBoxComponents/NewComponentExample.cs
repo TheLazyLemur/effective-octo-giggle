@@ -10,7 +10,7 @@ namespace EnhancedTriggerbox.Component
      */
     [AddComponentMenu("")]
     public class NewComponentExample 
-        : EnhancedTriggerBoxComponent // REPLACE THIS!!!
+        : ResponseComponent // REPLACE THIS!!!
     {
         /* 
          * Here you can declare your variables or structs or anything you want, just like a normal script.
@@ -105,10 +105,7 @@ namespace EnhancedTriggerbox.Component
             /* This checks if exampleGameObject is null. If it is null we should warn the user about it because it might cause errors. */
             if (!exampleGameobject)
             {
-                /* You should use ShowWarningMessage to display your warnings as this will take into account if the user has disabled
-                 * warnings or not.
-                 */
-                ShowWarningMessage("WARNING: You haven't assigned an object to exampleGameobject.");
+                ShowWarningMessage("WARNING: You haven't assigned an object to Example Game Object.");
             }
         }
     }

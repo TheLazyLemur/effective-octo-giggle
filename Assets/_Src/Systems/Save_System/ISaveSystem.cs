@@ -1,6 +1,4 @@
-﻿using System;
-
-public interface ISaveSystem
+﻿public interface ISaveSystem
 {
     void Save();
     object Load();

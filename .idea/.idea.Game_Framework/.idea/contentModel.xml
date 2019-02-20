@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="_Src" t="Include">
           <e p="Systems" t="Include">
+            <e p="ExampleDownloader.cs" t="Include" />
             <e p="Menu_&amp;_Settings" t="Include">
               <e p="Scripts" t="Include">
                 <e p="MainMenu.cs" t="Include" />
