@@ -3,15 +3,15 @@ using UnityEngine;
 
 public struct SaveProgressObject
 {
-    public float LevelsUnlocked;
-    public float CreaturesUnlocked;
+    public int LevelsUnlocked;
+    public int CreaturesUnlocked;
 }
 
 
 public struct SaveProgressSystem : ISaveSystem
 {
 
-    private static readonly string SAVE_FOLDER =@"C:\Users\lab\Documents\Games\LostBotanist" + "/SaveData/";
+    private static readonly string SAVE_FOLDER = @"C:\Users\lab\Documents\Games\LostBotanist" + "/SaveData/";
 
     public void Save()
     {
@@ -54,15 +54,14 @@ public struct SaveProgressSystem : ISaveSystem
 
         var saveObject = new SaveProgressObject()
         {
-            LevelsUnlocked = 13,
-            CreaturesUnlocked = 31
+            LevelsUnlocked = LevelDatabase.Instance.currentLevel,
+            CreaturesUnlocked = CreatureDatabase.Instance.creaturesUnlocked
         };
 
         var json = JsonUtility.ToJson(saveObject);
 
         File.WriteAllText(SAVE_FOLDER + "/Progress" + "/progress" + currentSaveNumber + ".json", json);
     }
-
 
     public object Load()
     {
@@ -89,8 +88,6 @@ public struct SaveProgressSystem : ISaveSystem
         
         var json = File.ReadAllText(mostRecent.FullName);            
         var saveObject = JsonUtility.FromJson<SaveProgressObject>(json);
-        Debug.Log(saveObject.LevelsUnlocked);
-        Debug.Log(saveObject.CreaturesUnlocked);
         return saveObject;
     }
 }

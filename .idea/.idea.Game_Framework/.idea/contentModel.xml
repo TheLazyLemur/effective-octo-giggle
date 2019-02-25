@@ -62,6 +62,9 @@
               </e>
             </e>
             <e p="ExampleDownloader.cs" t="Include" />
+            <e p="Level_Unlock" t="Include">
+              <e p="LevelSelector.cs" t="Include" />
+            </e>
             <e p="Menu_&amp;_Settings" t="Include">
               <e p="Scripts" t="Include">
                 <e p="MainMenu.cs" t="Include" />
@@ -97,6 +100,8 @@
             </e>
           </e>
         </e>
+        <e p="CreatureDataBase.cs" t="Include" />
+        <e p="LevelDatabase.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Resources" t="Include">
             <e p="LineBreaking Following Characters.txt" t="Include" />
