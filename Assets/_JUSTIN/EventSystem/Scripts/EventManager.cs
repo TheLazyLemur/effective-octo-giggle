@@ -6,7 +6,7 @@ namespace _JUSTIN.EventSystem.Scripts
 {
     public class EventManager : MonoBehaviour
     {
-        private Dictionary<string, UnityEvent> eventDictionary;
+        private Dictionary<string, UnityEvent> _eventDictionary;
 
         private static EventManager _eventManager;
 
@@ -27,20 +27,20 @@ namespace _JUSTIN.EventSystem.Scripts
 
         private void Init()
         {
-            if (eventDictionary == null)            
-                eventDictionary = new Dictionary<string, UnityEvent>();            
+            if (_eventDictionary == null)            
+                _eventDictionary = new Dictionary<string, UnityEvent>();            
         }
 
         public static void StartListening(string eventName, UnityAction listener)
         {
             UnityEvent thisEvent = null;
-            if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))
+            if (instance._eventDictionary.TryGetValue(eventName, out thisEvent))
                 thisEvent.AddListener(listener);
             else
             {
                 thisEvent = new UnityEvent();
                 thisEvent.AddListener(listener);
-                instance.eventDictionary.Add(eventName, thisEvent);
+                instance._eventDictionary.Add(eventName, thisEvent);
             }
         }
 
@@ -48,14 +48,14 @@ namespace _JUSTIN.EventSystem.Scripts
         {
             if (_eventManager == null) return;
             UnityEvent thisEvent = null;
-            if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))            
+            if (instance._eventDictionary.TryGetValue(eventName, out thisEvent))            
                 thisEvent.RemoveListener(listener);            
         }
 
         public static void TriggerEvent(string eventName)
         {
             UnityEvent thisEvent = null;
-            if (instance.eventDictionary.TryGetValue(eventName, out thisEvent))            
+            if (instance._eventDictionary.TryGetValue(eventName, out thisEvent))            
                 thisEvent.Invoke();            
         }
     }

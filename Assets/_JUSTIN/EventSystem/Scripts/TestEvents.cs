@@ -12,7 +12,7 @@ namespace _JUSTIN.EventSystem.Scripts
                 EventManager.TriggerEvent("DestroyObjects");
         }
 
-        public static void SpawnObjects()
+        public void SpawnObjects()
         {
             print("SpawnObjects");
         }

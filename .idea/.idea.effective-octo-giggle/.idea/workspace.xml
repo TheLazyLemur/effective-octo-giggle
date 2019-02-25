@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45f98007-357b-43e6-8bed-19e74e29f8dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Input_Manager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <marker date="1551100852397" expanded="true" signature="57:926" ph="{...}" />
+                <marker date="1551100852397" expanded="true" signature="105:924" ph="{...}" />
+                <marker date="1551100852397" expanded="true" signature="181:259" ph="{...}" />
+                <marker date="1551100852397" expanded="true" signature="292:584" ph="{...}" />
+                <marker date="1551100852397" expanded="true" signature="618:918" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+              <folding>
+                <marker date="1551100837567" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551100837567" expanded="true" signature="117:1972" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="165:1970" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="334:685" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="360:659" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="714:873" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="956:1356" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="1154:1346" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="1438:1703" ph="{...}" />
+                <marker date="1551100837567" expanded="true" signature="1762:1964" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <marker date="1551100432360" expanded="true" signature="57:570" ph="{...}" />
+                <marker date="1551100432360" expanded="true" signature="103:568" ph="{...}" />
+                <marker date="1551100432360" expanded="true" signature="139:369" ph="{...}" />
+                <marker date="1551100432360" expanded="true" signature="405:460" ph="{...}" />
+                <marker date="1551100432360" expanded="true" signature="505:562" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Editor/EventCreatorEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Editor/EventCreaterWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Editor/EventCreatorWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="230" />
+    <option name="y" value="32" />
+    <option name="width" value="1440" />
+    <option name="height" value="786" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_JUSTIN" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_JUSTIN" type="1045f7f1:UnityExplorerNode" />
+              <item name="EventSystem" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_JUSTIN" type="1045f7f1:UnityExplorerNode" />
+              <item name="EventSystem" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45f98007-357b-43e6-8bed-19e74e29f8dc" name="Default Changelist" comment="" />
+      <created>1551096438106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551096438106</updated>
+      <workItem from="1551096443183" duration="4249000" />
+      <workItem from="1551100729434" duration="155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4404000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Editor/EventCreatorWindow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <marker date="1551100837567" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551100837567" expanded="true" signature="117:1972" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="165:1970" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="334:685" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="360:659" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="714:873" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="956:1356" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="1154:1346" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="1438:1703" ph="{...}" />
+            <marker date="1551100837567" expanded="true" signature="1762:1964" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <marker date="1551100432360" expanded="true" signature="57:570" ph="{...}" />
+            <marker date="1551100432360" expanded="true" signature="103:568" ph="{...}" />
+            <marker date="1551100432360" expanded="true" signature="139:369" ph="{...}" />
+            <marker date="1551100432360" expanded="true" signature="405:460" ph="{...}" />
+            <marker date="1551100432360" expanded="true" signature="505:562" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <marker date="1551100852397" expanded="true" signature="57:926" ph="{...}" />
+            <marker date="1551100852397" expanded="true" signature="105:924" ph="{...}" />
+            <marker date="1551100852397" expanded="true" signature="181:259" ph="{...}" />
+            <marker date="1551100852397" expanded="true" signature="292:584" ph="{...}" />
+            <marker date="1551100852397" expanded="true" signature="618:918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
