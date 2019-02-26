@@ -24,7 +24,18 @@
               <e p="LevelDatabase.cs" t="Include" />
             </e>
             <e p="ETB" t="Include">
+              <e p="Test.txt" t="Include" />
               <e p="TriggerBoxEnhanced_Modified" t="Include">
+                <e p="Examples" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="CubeShoot.cs" t="Include" />
+                    <e p="CubeShootController.cs" t="Include" />
+                    <e p="FPSControllerShoot.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="SetMaterialDemoShader.shader" t="Include" />
+                  </e>
+                </e>
                 <e p="Scripts" t="Include">
                   <e p="Editor" t="Include">
                     <e p="EnhancedTriggerBoxInspector.cs" t="Include" />
@@ -60,6 +71,7 @@
                       <e p="SetMaterialProperty.cs" t="Include" />
                       <e p="SpawnGameobjectResponse.cs" t="Include" />
                       <e p="TeleportResponse.cs" t="Include" />
+                      <e p="TriggerEventSystemResponse.cs" t="Include" />
                     </e>
                   </e>
                 </e>
