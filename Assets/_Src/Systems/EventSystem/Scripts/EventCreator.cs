@@ -1,32 +1,33 @@
 ﻿using UnityEngine;
 
-namespace _JUSTIN.EventSystem.Scripts
+namespace _Src.Systems.EventSystem.Scripts
 {
     public class EventCreator : MonoBehaviour
     {
-        private TestEvents _testEvents;
-
-        private void Awake()
-        {
-            _testEvents = FindObjectOfType<TestEvents>();
-        }
-
         private void OnEnable()
         {
-            //SUBSCRIBING TO NON-STATIC EVENTS
-            EventManager.StartListening("SpawnObjects", _testEvents.SpawnObjects);
+            //EXAMPLE CODE: SUBSCRIBE TO EVENTS
             
-            //SUBSCRIBING TO STATIC EVENTS
+            /*            
+            EventManager.StartListening("SpawnObjects", TestEvents.SpawnObjects);
+            
             EventManager.StartListening("DestroyObjects", TestEvents.DestroyObjects);
+            
+            EventManager.StartListening("PlayerDeath", Player.Death);
+             */
         }
 
         private void OnDisable()
         {
-            //UN-SUBSCRIBING FROM NON-STATIC EVENTS
-            EventManager.StopListening("SpawnObjects", _testEvents.SpawnObjects);
+            // EXAMPLE CODE: UNSUBSCRIBE FROM EVENTS
             
-            //UN-SUBSCRIBING FROM STATIC EVENTS
+            /*
+            EventManager.StopListening("SpawnObjects", TestEvents.SpawnObjects);
+
             EventManager.StopListening("DestroyObjects", TestEvents.DestroyObjects);
+
+            EventManager.StopListening("PlayerDeath", Player.Death);
+            */
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _JUSTIN.EventSystem.Scripts
+namespace _Src.Systems.EventSystem.Scripts
 {
     public class TestEvents : MonoBehaviour
     {
@@ -12,7 +12,7 @@ namespace _JUSTIN.EventSystem.Scripts
                 EventManager.TriggerEvent("DestroyObjects");
         }
 
-        public void SpawnObjects()
+        public static void SpawnObjects()
         {
             print("SpawnObjects");
         }
