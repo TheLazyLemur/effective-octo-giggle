@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 231821362}
   - component: {fileID: 231821364}
   - component: {fileID: 231821363}
+  - component: {fileID: 231821365}
   m_Layer: 0
   m_Name: TriggerCube
   m_TagString: Untagged
@@ -315,7 +316,7 @@ MonoBehaviour:
   gazeLayer:
     serializedVersion: 2
     m_Bits: 9
-  raycastLength: 5
+  raycastLength: 3
   gazeCrosshair: 1
   crosshair: {fileID: 500332}
   crosshairScaleSpeed: 0.2
@@ -333,7 +334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conditions:
   - {fileID: 231821363}
-  responses: []
+  responses:
+  - {fileID: 231821365}
   exitResponses: []
   showBaseOptions: 1
   debugTriggerBox: 0
@@ -348,6 +350,22 @@ MonoBehaviour:
   conditionTime: 2
   followTransform: {fileID: 0}
   followTransformName: 
+--- !u!114 &231821365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231821357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f9ce67707c2b042a1eca7d1efcec3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleted: 0
+  showWarnings: 1
+  duration: 0
+  eventsToTrigger: 
 --- !u!1 &355011654
 GameObject:
   m_ObjectHideFlags: 0

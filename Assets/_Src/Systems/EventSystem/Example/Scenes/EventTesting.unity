@@ -191,6 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843980086}
   - component: {fileID: 843980087}
+  - component: {fileID: 843980088}
   m_Layer: 0
   m_Name: TestEvents
   m_TagString: Untagged
@@ -213,6 +214,18 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &843980087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843980085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e97a92786721c998b5a932ab2ce442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &843980088
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,8 +328,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835562346}
-  - component: {fileID: 1835562345}
   - component: {fileID: 1835562347}
+  - component: {fileID: 1835562345}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -333,7 +346,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1835562344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a54ba8a7608d5f594ec2e6461688d5, type: 3}
+  m_Script: {fileID: 11500000, guid: eb582da16bdf5a585889e9a43d3d3d10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1835562346
@@ -359,6 +372,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1835562344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb582da16bdf5a585889e9a43d3d3d10, type: 3}
+  m_Script: {fileID: 11500000, guid: 96a54ba8a7608d5f594ec2e6461688d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

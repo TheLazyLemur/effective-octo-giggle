@@ -290,10 +290,15 @@
               </e>
             </e>
             <e p="EventSystem" t="Include">
+              <e p="Example" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Player.cs" t="Include" />
+                  <e p="TestEvents.cs" t="Include" />
+                </e>
+              </e>
               <e p="Scripts" t="Include">
                 <e p="EventCreator.cs" t="Include" />
                 <e p="EventManager.cs" t="Include" />
-                <e p="TestEvents.cs" t="Include" />
               </e>
             </e>
             <e p="Game_Managment" t="Include">

@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="45f98007-357b-43e6-8bed-19e74e29f8dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Game Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Scenes/Game Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/ETB" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/ETB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Responses/TriggerEventSystemResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Responses/TriggerEventSystemResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scenes/EventTesting.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scenes/EventTesting.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/TestEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/TestEvents.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,22 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <marker date="1551343008700" expanded="false" signature="6:136" ph="..." />
-                <marker date="1551343008700" expanded="true" signature="185:2362" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="272:2360" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="535:590" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="639:1216" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="937:1206" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="1262:2223" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="1663:2185" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="1712:2089" ph="{...}" />
-                <marker date="1551343008700" expanded="true" signature="2257:2348" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="170:1975" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="339:690" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="365:664" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="719:878" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="961:1361" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="1159:1351" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="1443:1708" ph="{...}" />
+                <marker date="1551352618545" expanded="true" signature="1767:1969" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <marker date="1551353673805" expanded="true" signature="62:931" ph="{...}" />
+                <marker date="1551353673805" expanded="true" signature="110:929" ph="{...}" />
+                <marker date="1551353673805" expanded="true" signature="148:536" ph="{...}" />
+                <marker date="1551353673805" expanded="true" signature="232:526" ph="/* EventManager.StartListening(&quot;SpawnObjects&quot;, TestEvents.SpawnObjects); ... */" />
+                <marker date="1551353673805" expanded="true" signature="570:923" ph="{...}" />
+                <marker date="1551353673805" expanded="true" signature="659:913" ph="/* EventManager.StopListening(&quot;SpawnObjects&quot;, TestEvents.SpawnObjects); ... */" />
               </folding>
             </state>
           </provider>
@@ -42,10 +63,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/_Src/Systems/ETB" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Responses/TriggerEventSystemResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,14 +81,18 @@
         <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/TestEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/PlayerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="32" />
-    <option name="width" value="1440" />
-    <option name="height" value="786" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="3641" />
+    <option name="width" value="1719" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,9 +101,7 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -83,13 +109,71 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="ETB" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="ETB" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxEnhanced_Modified" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="ETB" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxEnhanced_Modified" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="ETB" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxEnhanced_Modified" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxComponents" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="_Src" type="1045f7f1:UnityExplorerNode" />
+              <item name="Systems" type="1045f7f1:UnityExplorerNode" />
+              <item name="ETB" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxEnhanced_Modified" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="TriggerBoxComponents" type="1045f7f1:UnityExplorerNode" />
+              <item name="Responses" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,11 +223,14 @@
       <workItem from="1551096443183" duration="4249000" />
       <workItem from="1551100729434" duration="155000" />
       <workItem from="1551341746425" duration="1307000" />
+      <workItem from="1551347503763" duration="1548000" />
+      <workItem from="1551351714125" duration="1563000" />
+      <workItem from="1551353491588" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5711000" />
+    <option name="totallyTimeSpent" value="9065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,9 +242,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1030" extended-state="6" />
+    <frame x="3641" y="0" width="1719" height="1440" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2940825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -202,30 +289,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Editor/EventCreatorWindow.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/TestEvents.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventCreator.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_JUSTIN/EventSystem/Scripts/EventManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Responses/TriggerEventSystemResponse.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/ETB/TriggerBoxEnhanced_Modified/Scripts/TriggerBoxComponents/Conditions/CameraGazeCondition.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
+        <state relative-caret-position="990">
           <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding>
             <marker date="1551343008700" expanded="false" signature="6:136" ph="..." />
@@ -238,6 +310,52 @@
             <marker date="1551343008700" expanded="true" signature="1663:2185" ph="{...}" />
             <marker date="1551343008700" expanded="true" signature="1712:2089" ph="{...}" />
             <marker date="1551343008700" expanded="true" signature="2257:2348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/TestEvents.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <marker date="1551352618545" expanded="true" signature="170:1975" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="339:690" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="365:664" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="719:878" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="961:1361" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="1159:1351" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="1443:1708" ph="{...}" />
+            <marker date="1551352618545" expanded="true" signature="1767:1969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/EventSystem/Scripts/EventCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <marker date="1551353673805" expanded="true" signature="62:931" ph="{...}" />
+            <marker date="1551353673805" expanded="true" signature="110:929" ph="{...}" />
+            <marker date="1551353673805" expanded="true" signature="148:536" ph="{...}" />
+            <marker date="1551353673805" expanded="true" signature="232:526" ph="/* EventManager.StartListening(&quot;SpawnObjects&quot;, TestEvents.SpawnObjects); ... */" />
+            <marker date="1551353673805" expanded="true" signature="570:923" ph="{...}" />
+            <marker date="1551353673805" expanded="true" signature="659:913" ph="/* EventManager.StopListening(&quot;SpawnObjects&quot;, TestEvents.SpawnObjects); ... */" />
           </folding>
         </state>
       </provider>
