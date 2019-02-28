@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace _JUSTIN.EventSystem.Scripts
+namespace _Src.Systems.EventSystem.Scripts
 {
     public class EventManager : MonoBehaviour
     {
