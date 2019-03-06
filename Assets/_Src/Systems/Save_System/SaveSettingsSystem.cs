@@ -10,7 +10,7 @@ public struct SaveSettingsObject
 
 public struct SaveSettingsSystem : ISaveSystem
 {
-    private static readonly string SAVE_FOLDER = @"C:\Users\lab\Documents\Games\LostBotanist" + "/SaveData/";
+    private static readonly string SAVE_FOLDER = Application.persistentDataPath + "/SaveData/";
 
     public void Save()
     {

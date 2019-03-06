@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45f98007-357b-43e6-8bed-19e74e29f8dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Framework/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.effective-octo-giggle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Game Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Game Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Menu Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Menu Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Preloader Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Scenes/Preloader Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Game_Managment/MusicPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Game_Managment/MusicPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Game_Managment/Preloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Game_Managment/Preloader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Level_Unlock.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Level_Unlock.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Network/ExampleDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Network/ExampleDownloader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Src/Systems/Object_Pooling/Scripts/ObjectInstantiation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneChanger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneChanger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneReset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/SceneReset.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/ScreenFade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/SceneManager/ScreenFade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Src/Systems/Utility/DontDestroyOnLoad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/FadeManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="399">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <marker date="1551905094507" expanded="true" signature="6:80" ph="..." />
                 <marker date="1551905094507" expanded="true" signature="122:1977" ph="{...}" />
@@ -200,12 +168,12 @@
       <workItem from="1551351714125" duration="1563000" />
       <workItem from="1551353491588" duration="243000" />
       <workItem from="1551897040821" duration="74000" />
-      <workItem from="1551897174549" duration="5114000" />
+      <workItem from="1551897174549" duration="6332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14253000" />
+    <option name="totallyTimeSpent" value="15471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Src/Systems/FadeManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        <state relative-caret-position="399">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <marker date="1551905094507" expanded="true" signature="6:80" ph="..." />
             <marker date="1551905094507" expanded="true" signature="122:1977" ph="{...}" />

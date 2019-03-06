@@ -11,7 +11,7 @@ public struct SaveProgressObject
 public struct SaveProgressSystem : ISaveSystem
 {
 
-    private static readonly string SAVE_FOLDER = @"C:\Users\lab\Documents\Games\LostBotanist" + "/SaveData/";
+    private static readonly string SAVE_FOLDER = Application.persistentDataPath + "/SaveData/";
 
     public void Save()
     {
