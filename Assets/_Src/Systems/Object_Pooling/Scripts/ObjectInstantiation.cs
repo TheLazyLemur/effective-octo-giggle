@@ -4,8 +4,8 @@ namespace _Src.Systems.Object_Pooling.Scripts
 {
     public class ObjectInstantiation : MonoBehaviour
     {
-        [SerializeField] private GameObject firePoint;
-        [SerializeField]private Projectile proj;
+        [SerializeField]private GameObject firePoint = null;
+        [SerializeField]private Projectile proj = null;
 
         private void Update()
         {

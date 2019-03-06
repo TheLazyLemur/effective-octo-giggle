@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using _LostBotanist.Scripts;
+//using _LostBotanist.Scripts;
 
 public class Preloader : MonoBehaviour
 {
-   [SerializeField] private CanvasGroup fadeGroup;
+   [SerializeField] private CanvasGroup fadeGroup = null;
     private float loadTime;
     private float minimumLogoTime = 3f;
 
@@ -42,8 +42,8 @@ public class Preloader : MonoBehaviour
             fadeGroup.alpha = Time.time - minimumLogoTime;
             if (fadeGroup.alpha >= 1)
             {
-                var sceneLoader = FindObjectOfType<SceneLoader>();
-                sceneLoader.LoadTheNextScene();
+              //  var sceneLoader = FindObjectOfType<SceneLoader>();
+           //     sceneLoader.LoadTheNextScene();
                 
             }
         }

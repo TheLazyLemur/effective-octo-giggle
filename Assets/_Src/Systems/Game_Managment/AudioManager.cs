@@ -59,6 +59,33 @@ public class AudioManager : MonoBehaviour
     public void PlayMusicWithFade(AudioClip newClip, float transitionTime = 1)
     {
         var activeSource = (_firstMusicSourceIsPlaying) ? _musicSource : _musicSource2;
+        StartCoroutine(UpdateMusicWithFade(activeSource, newClip, transitionTime));
+    }
+
+    public void PlayMusicWithCrossFade(AudioClip clip, float transitionTime)
+    {
+        var activeSource = (_firstMusicSourceIsPlaying) ? _musicSource : _musicSource2;
+        var newSource = (_firstMusicSourceIsPlaying) ? _musicSource2 : _musicSource;
+
+        _firstMusicSourceIsPlaying = !_firstMusicSourceIsPlaying;
+
+        newSource.clip = clip;
+        newSource.Play();
+        StartCoroutine(UpdateMusicWithFade(activeSource, newSource, transitionTime));
+    }
+
+    private IEnumerator UpdateMusicWithFade(AudioSource originalSource, AudioSource newSource, float transitionTime)
+    {
+        var t = 0f;
+
+        for (t = 0; t < transitionTime; t+= Time.deltaTime)
+        {
+            originalSource.volume = (1 - (t / transitionTime));
+            newSource.volume = (t / transitionTime);
+            yield return null;
+        }
+        
+        originalSource.Stop();
     }
 
     private IEnumerator UpdateMusicWithFade(AudioSource activeSource, AudioClip newClip, float transitionTime)
@@ -68,9 +95,21 @@ public class AudioManager : MonoBehaviour
 
         var t = 0f;
 
+        //Fade out
         for (t = 0; t < transitionTime; t += Time.deltaTime)
         {
             activeSource.volume = (1 - (t / transitionTime));
+            yield return null;
+        }
+
+        activeSource.Stop();
+        activeSource.clip = newClip;
+        activeSource.Play();
+
+        //Fade in
+        for (t = 0; t < transitionTime; t += Time.deltaTime)
+        {
+            activeSource.volume = t / transitionTime;
             yield return null;
         }
     }
@@ -79,7 +118,6 @@ public class AudioManager : MonoBehaviour
     {
         _sfxSource.PlayOneShot(clip);
     }
-
     public void PlaySfx(AudioClip clip, float vol)
     {
         _sfxSource.PlayOneShot(clip, vol);
