@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d4d471161e41749b3b1a0021dc62d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test: 0
+  Test: 1
 --- !u!4 &1406783730
 Transform:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
   buttonClick: {fileID: 8300000, guid: 7c312ee7f6ae4624ba23e8ecf9913645, type: 3}
   music1: {fileID: 8300000, guid: 4e305da9c977c134b986de393be3c1db, type: 3}
   music2: {fileID: 8300000, guid: 3f339d43edfeb1f46a7c214e7513ceae, type: 3}
-  Test: 1
+  Test: 0
 --- !u!1 &1419241273
 GameObject:
   m_ObjectHideFlags: 0
