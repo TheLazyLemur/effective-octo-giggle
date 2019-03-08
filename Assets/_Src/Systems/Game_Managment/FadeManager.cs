@@ -64,11 +64,13 @@ public class FadeManager : MonoBehaviour
     }
     public void FadeOut(float fadeTime, Color fadeColor, Action func = null)
     {
+        
         fadeImage.color = fadeColor;
         StartCoroutine(UpdateFadeOut(fadeTime, func));
     }
     private IEnumerator UpdateFadeOut(float fadeTime, Action func)
     {
+        Debug.Log("Here2");
         var t = 0f;
 
         for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
