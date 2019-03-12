@@ -24,6 +24,8 @@ public class SettingsMenu : MonoBehaviour
         {
             Instance = this;
         }
+
+	Debug.Log("Hello World");
     }
 
     private void Start()

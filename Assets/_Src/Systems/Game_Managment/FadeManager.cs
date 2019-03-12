@@ -70,7 +70,6 @@ public class FadeManager : MonoBehaviour
     }
     private IEnumerator UpdateFadeOut(float fadeTime, Action func)
     {
-        Debug.Log("Here2");
         var t = 0f;
 
         for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
