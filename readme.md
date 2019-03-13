@@ -48,7 +48,11 @@ To set up an audio object just add an empty game object to the scene, then add t
     public void FadeOut(float fadeTime, Color fadeColor, Action func = null)
 ```
 
-To set up the fade object add a Canvas to the scene. Call is "Fade object" Then add a canvas group component to that same canvas. Then child an image to the Canvas, stretch it over the whole screen and then add FadeManager.cs. It should now look like this : ![Fade Manager](FadeManager.png) The callbacks are :
+To set up the fade object add a Canvas to the scene. Call is "Fade object" Then add a canvas group component to that same canvas. Then child an image to the Canvas, stretch it over the whole screen and then add FadeManager.cs. It should now look like this :  
+
+<img src="ReadMeFiles/FadeManager.png" width=800/> 
+
+The callbacks are :
 
 - Fade In
   - Use private void FadeIn(float fadeTime) just select the time of the fade default color is black.
