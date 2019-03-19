@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
 //using _LostBotanist.Scripts;
 
 public class Preloader : MonoBehaviour
@@ -37,15 +39,13 @@ public class Preloader : MonoBehaviour
         }
         
         //Fade out
-        if (Time.time > minimumLogoTime && loadTime != 0)
+        if (!(Time.time > minimumLogoTime) || loadTime == 0) return;
+        
+        fadeGroup.alpha = Time.time - minimumLogoTime;
+        if (fadeGroup.alpha >= 1)
         {
-            fadeGroup.alpha = Time.time - minimumLogoTime;
-            if (fadeGroup.alpha >= 1)
-            {
-              //  var sceneLoader = FindObjectOfType<SceneLoader>();
-           //     sceneLoader.LoadTheNextScene();
-                
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
         }
     }
 }

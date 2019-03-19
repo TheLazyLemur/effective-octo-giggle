@@ -56,16 +56,16 @@ namespace EnhancedTriggerbox.Component
             switch (methodToCall)
             {
                 case MethodToCall.PlaySfx:
-                    AudioManager.instance.PlaySfx(_clipToPlay);
+                    AudioManager.Instance.PlaySfx(_clipToPlay);
                     break;
                 case MethodToCall.PlayMusic:
-                    AudioManager.instance.PlayMusic(_clipToPlay);
+                    AudioManager.Instance.PlayMusic(_clipToPlay);
                     break;
                 case MethodToCall.PlayMusicWithFade:
-                    AudioManager.instance.PlayMusicWithFade(_clipToPlay, 1.5f);
+                    AudioManager.Instance.PlayMusicWithFade(_clipToPlay, 1.5f);
                     break;
                 case MethodToCall.PlayMusicWithCrossFade:
-                    AudioManager.instance.PlayMusicWithCrossFade(_clipToPlay, 1.5f);
+                    AudioManager.Instance.PlayMusicWithCrossFade(_clipToPlay, 1.5f);
                     break;
             }
 

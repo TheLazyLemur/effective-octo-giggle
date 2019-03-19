@@ -16,32 +16,32 @@ public class AudioTesting : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            AudioManager.instance.PlaySfx(buttonClick);
+            AudioManager.Instance.PlaySfx(buttonClick);
         }
         
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            AudioManager.instance.PlayMusic(music1);
+            AudioManager.Instance.PlayMusic(music1);
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            AudioManager.instance.PlayMusic(music2);
+            AudioManager.Instance.PlayMusic(music2);
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            AudioManager.instance.PlayMusicWithFade(music1);
+            AudioManager.Instance.PlayMusicWithFade(music1);
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            AudioManager.instance.PlayMusicWithFade(music2);
+            AudioManager.Instance.PlayMusicWithFade(music2);
         }
         if (Input.GetKeyDown(KeyCode.Alpha6))
         {
-            AudioManager.instance.PlayMusicWithCrossFade(music1, 3f);
+            AudioManager.Instance.PlayMusicWithCrossFade(music1, 3f);
         }
         if (Input.GetKeyDown(KeyCode.Alpha7))
         {
-            AudioManager.instance.PlayMusicWithCrossFade(music2, 3f);
+            AudioManager.Instance.PlayMusicWithCrossFade(music2, 3f);
         }
            
     }

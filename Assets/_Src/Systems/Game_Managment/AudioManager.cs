@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
 
     private static AudioManager _instance;
 
-    public static AudioManager instance
+    public static AudioManager Instance
     {
         get
         {
