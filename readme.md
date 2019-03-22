@@ -69,9 +69,11 @@ Easy to use Event System.
 
 ##### Implementation
 
-    Create an empty game object in your scene called Event Manager and add the EventManager.cs script to it.  Once the Event Manager is in the scene you don't need to touch it again.
+```cs
+Create an empty game object in your scene called Event Manager and add the EventManager.cs script to it.  Once the Event Manager is in the scene you don't need to touch it again.
+```
 
-**When wanting to use an event in any script, use the following steps:**
+>**When wanting to use an event in any script, use the following steps:**
 
 1. Make sure to implement the following using statement:  
 ```using _Src.Systems.EventSystem```
