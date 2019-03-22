@@ -11,7 +11,7 @@ A game skeleton for any future projects. Will consist of systems essential to mo
 3. [Event system](#Event-System)
 4. [Save system](#Save-System)
 
-#### Audio Manager
+### Audio Manager
 
 ##### AudioManager.cs
 
@@ -35,7 +35,7 @@ To set up an audio object just add an empty game object to the scene, then add t
   - Use public void PlayMusicWithFade(AudioClip newClip, float transitionTime = 1) fade the first song to silent then there is a slight pause and new song fades in.
   - Use public void PlayMusicWithCrossFade(AudioClip clip, float transitionTime) fades music with no break in between, its a cross fade.
 
-#### Screen Fade
+### Screen Fade
 
 ##### ScreenFade.cs
 
@@ -61,7 +61,7 @@ The callbacks are :
 - Fade out
   - The callback are all the same(use FadeOut instead).
 
-#### Event System
+### Event System
 
 ##### Overview
 
