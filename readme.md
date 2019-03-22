@@ -6,7 +6,7 @@ A game skeleton for any future projects. Will consist of systems essential to mo
 
 ### Index  
 
-1. Audio manager.
+1. [Audio Manager](#Audio-Manager)
 2. Fade manager.
 3. Event system.
 4. Save system.
