@@ -6,6 +6,7 @@ using UnityEngine;
 public class FadeTesting : MonoBehaviour
 {
     public bool Test;
+
     
     private void Update()
     {
