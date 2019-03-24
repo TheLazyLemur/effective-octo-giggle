@@ -16,7 +16,6 @@ public class SaveGameExample
                 Load();
             return _instance;
         }
-
     }
 
     public static void Save()

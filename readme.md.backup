@@ -158,5 +158,5 @@ Press **Play** in Unity, then press the **A** button on the keyboard to see the 
 The save system serialized data to and from json format. It is built to be very easy to implement.
 
 ```cs
-	// You need to create a singleton of the data you want to save
+	// You need to create a singleton
 ```
