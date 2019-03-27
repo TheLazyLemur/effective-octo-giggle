@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class AudioTesting : MonoBehaviour
 {
-    [SerializeField] private AudioClip buttonClick;
-    [SerializeField] private AudioClip music1;
-    [SerializeField] private AudioClip music2;
+    [SerializeField] private AudioClip buttonClick = null;
+    [SerializeField] private AudioClip music1 = null;
+    [SerializeField] private AudioClip music2 = null;
 
     public bool Test;
     

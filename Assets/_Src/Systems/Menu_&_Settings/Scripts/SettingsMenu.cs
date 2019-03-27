@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
 {
-    [SerializeField] private AudioMixer audioMixer;
+    [SerializeField] private AudioMixer audioMixer = null;
 
     [FormerlySerializedAs("_masterSlider")] [SerializeField]
     public Slider masterSlider;
@@ -24,14 +25,21 @@ public class SettingsMenu : MonoBehaviour
         {
             Instance = this;
         }
-
-	Debug.Log("Hello World");
     }
 
     private void Start()
     {
         var settingsLoad = new SaveSettingsSystem();
-        settingsLoad.Load();
+
+        try
+        {
+            settingsLoad.Load();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e + "Creating directory");
+            settingsLoad.Save();
+        }
     }
 
     public void SaveSettings()

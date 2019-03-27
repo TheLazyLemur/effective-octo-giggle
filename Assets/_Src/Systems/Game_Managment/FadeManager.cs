@@ -8,15 +8,18 @@ public class FadeManager : MonoBehaviour
     public static FadeManager Instance;
 
     [Header("Fade references")] [SerializeField]
-    private CanvasGroup fadeGroup;
+    private CanvasGroup fadeGroup = null;
 
-    [SerializeField] private Image fadeImage;
+    [SerializeField] private Image fadeImage = null;
 
     [Header("Fade variables")] [SerializeField]
     private bool startWithFade = true;
 
     [SerializeField] private Color startFadeColor = Color.black;
     [SerializeField] private float startFadeTime = 1.5f;
+
+    private Coroutine FadeInCoroutine;
+    private Coroutine FadeOutCoroutine;
 
     private void Awake()
     {
@@ -39,13 +42,20 @@ public class FadeManager : MonoBehaviour
     {
         FadeIn(fadeTime, fadeImage.color, null);
     }
+
     public void FadeIn(float fadeTime, Color fadeColor, Action func = null)
     {
         fadeImage.color = fadeColor;
-        StartCoroutine(UpdateFadeIn(fadeTime, func));
+        if (FadeInCoroutine != null)
+        {
+            StopCoroutine(FadeInCoroutine);
+        }
+        FadeInCoroutine = StartCoroutine(UpdateFadeIn(fadeTime, func));
     }
+
     private IEnumerator UpdateFadeIn(float fadeTime, Action func)
     {
+        Debug.Log("Started Fade in");
         var t = 0f;
 
         for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
@@ -57,19 +67,25 @@ public class FadeManager : MonoBehaviour
         fadeGroup.alpha = 0;
         func?.Invoke();
     }
-    
+
     public void FadeOut(float fadeTime)
     {
         FadeOut(fadeTime, fadeImage.color, null);
     }
+
     public void FadeOut(float fadeTime, Color fadeColor, Action func = null)
     {
-        
         fadeImage.color = fadeColor;
-        StartCoroutine(UpdateFadeOut(fadeTime, func));
+        if (FadeOutCoroutine != null)
+        {
+            StopCoroutine(FadeOutCoroutine);
+        }
+        FadeOutCoroutine = StartCoroutine(UpdateFadeOut(fadeTime, func));
     }
+
     private IEnumerator UpdateFadeOut(float fadeTime, Action func)
     {
+        Debug.Log("Started Fade out");
         var t = 0f;
 
         for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
