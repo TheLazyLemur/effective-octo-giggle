@@ -25,8 +25,6 @@ public class FadeManager : MonoBehaviour
     {
         Instance = this;
 
-        DontDestroyOnLoad(gameObject);
-
         if (startWithFade)
         {
             fadeGroup.alpha = 1;

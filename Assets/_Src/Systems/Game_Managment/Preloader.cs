@@ -47,8 +47,8 @@ public class Preloader : MonoBehaviour
 
     IEnumerator LoadYourAsyncScene()
     {
-        var currentScene = SceneManager.GetActiveScene();
-        asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        var currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+        asyncLoad = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
         asyncLoad.allowSceneActivation = false;
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)
@@ -56,7 +56,7 @@ public class Preloader : MonoBehaviour
             yield return null;
         }
 
-        var deload = SceneManager.UnloadSceneAsync(currentScene);
+        var deload = UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(currentScene);
 
         while (!deload.isDone)
         {
