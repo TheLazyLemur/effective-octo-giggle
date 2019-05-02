@@ -5,8 +5,7 @@ using UnityEngine.UI;
 public class LevelSelector : MonoBehaviour
 {
     public Button[] levelButtons;
-    
-    
+
 
     private void Start()
     {
@@ -14,6 +13,7 @@ public class LevelSelector : MonoBehaviour
 
         var loadObject = progressSave.Load() is SaveProgressObject ? (SaveProgressObject) progressSave.Load() : default;
         var levelReached = loadObject.LevelsUnlocked;
+        
         Debug.Log(levelReached);
 
         for (var i = 0; i < levelButtons.Length; i++)
@@ -39,11 +39,11 @@ public class LevelSelector : MonoBehaviour
                 //SceneManager.LoadScene("Level 3");
                 Debug.Log("Loading scene 3");
                 break;
-            case 4 :
+            case 4:
                 //SceneManager.LoadScene("Level 4");
                 Debug.Log("Loading scene 4");
                 break;
-            case 5 :
+            case 5:
                 //SceneManager.LoadScene("Level 5");
                 Debug.Log("Loading scene 5");
                 break;

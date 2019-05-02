@@ -35,16 +35,16 @@ public class SceneManagment : MonoBehaviour
     
     public void ReloadCurrentScene()
     {
-        var levelToLoad = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
-        UnityEngine.SceneManagement.SceneManager.LoadScene(levelToLoad);
+        var levelToLoad = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(levelToLoad);
     }
 
     IEnumerator LoadYourAsyncScene()
     {
-        var currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+        var currentScene = SceneManager.GetActiveScene();
 
-        _asyncLoad = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
+        _asyncLoad = SceneManager.LoadSceneAsync(
+            SceneManager.GetActiveScene().buildIndex + 1);
 
         _asyncLoad.allowSceneActivation = false;
 
@@ -53,7 +53,7 @@ public class SceneManagment : MonoBehaviour
             yield return null;
         }
 
-        var unload = UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(currentScene);
+        var unload = SceneManager.UnloadSceneAsync(currentScene);
 
         while (!unload.isDone)
         {

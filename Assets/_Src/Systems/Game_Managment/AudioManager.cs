@@ -3,31 +3,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    #region Singleton
-
-    private static AudioManager _instance;
-
-    public static AudioManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = FindObjectOfType<AudioManager>();
-
-                if (_instance == null)
-                {
-                    _instance =
-                        new GameObject("Spawned audio manager", typeof(AudioManager)).GetComponent<AudioManager>();
-                }
-            }
-
-            return _instance;
-        }
-        private set { _instance = value; }
-    }
-
-    #endregion
+    public static AudioManager Instance;
 
     private AudioSource _musicSource;
     private AudioSource _musicSource2;
@@ -37,7 +13,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        Instance = this;
 
         _musicSource = gameObject.AddComponent<AudioSource>();
         _musicSource2 = gameObject.AddComponent<AudioSource>();
@@ -78,13 +54,13 @@ public class AudioManager : MonoBehaviour
     {
         var t = 0f;
 
-        for (t = 0; t < transitionTime; t+= Time.deltaTime)
+        for (t = 0; t < transitionTime; t += Time.deltaTime)
         {
             originalSource.volume = (1 - (t / transitionTime));
             newSource.volume = (t / transitionTime);
             yield return null;
         }
-        
+
         originalSource.Stop();
     }
 
@@ -118,6 +94,7 @@ public class AudioManager : MonoBehaviour
     {
         _sfxSource.PlayOneShot(clip);
     }
+
     public void PlaySfx(AudioClip clip, float vol)
     {
         _sfxSource.PlayOneShot(clip, vol);
