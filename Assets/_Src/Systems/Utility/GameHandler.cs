@@ -1,19 +1,24 @@
-﻿using UnityEngine;
+﻿using Assets._Src.Systems.Save_System;
+using Assets._Src.Systems.Scripts;
+using UnityEngine;
 
-public class GameHandler : MonoBehaviour
+namespace Assets._Src.Systems.Utility
 {
-    private void Update()
+    public class GameHandler : MonoBehaviour
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !PauseSystem.Instance.IsPaused())
+        private void Update()
         {
-            PauseSystem.Instance.PauseGame();
+            if (Input.GetKeyDown(KeyCode.Escape) && !PauseSystem.Instance.IsPaused())
+            {
+                PauseSystem.Instance.PauseGame();
+            }
         }
-    }
 
-    public void SaveGame()
-    {
-        var saveGame = new SaveGame();
+        public void SaveGame()
+        {
+            var saveGame = new SaveGame();
         
-        saveGame.Save();
+            saveGame.Save();
+        }
     }
 }

@@ -1,34 +1,37 @@
-﻿using UnityEngine;
-using System.IO;
+﻿using System.IO;
+using UnityEngine;
 
-public class FileManager
+namespace Assets._Src.Systems.Save_System.Rewrite
 {
-    public static T Load<T>(string filename) where T : new()
+    public class FileManager
     {
-        var filePath = Path.Combine(Application.persistentDataPath, filename);
+        public static T Load<T>(string filename) where T : new()
+        {
+            var filePath = Path.Combine(Application.persistentDataPath, filename);
         
-        T output;
+            T output;
 
-        if (File.Exists(filePath))
-        {
-            var dataAsJson = File.ReadAllText(filePath);
-            output = JsonUtility.FromJson<T>(dataAsJson);
+            if (File.Exists(filePath))
+            {
+                var dataAsJson = File.ReadAllText(filePath);
+                output = JsonUtility.FromJson<T>(dataAsJson);
+            }
+            else
+            {
+                output = new T();
+            }
+
+            return output;
         }
-        else
+
+        public static void Save<T>(string filename, T content)
         {
-            output = new T();
+            var filePath = Path.Combine(Application.persistentDataPath, filename);
+
+            var dataAsJson = JsonUtility.ToJson(content);
+            File.WriteAllText(filePath, dataAsJson);
+
         }
-
-        return output;
-    }
-
-    public static void Save<T>(string filename, T content)
-    {
-        var filePath = Path.Combine(Application.persistentDataPath, filename);
-
-        var dataAsJson = JsonUtility.ToJson(content);
-        File.WriteAllText(filePath, dataAsJson);
-
-    }
     
+    }
 }

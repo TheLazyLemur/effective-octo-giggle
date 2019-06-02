@@ -1,31 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets._Src.Systems.Save_System;
 using UnityEngine;
 
-public class LevelDatabase : MonoBehaviour
+namespace Assets._Src.Systems.Database
 {
-    public static LevelDatabase Instance;
-
-    public int currentLevel { get; private set; }
-
-    private void Awake()
+    public class LevelDatabase : MonoBehaviour
     {
-        if (Instance == null)
-            Instance = this;
-    }
+        public static LevelDatabase Instance;
 
-    private void Start()
-    {
-        var loadedObject = new SaveProgressSystem();
-        var saveProgressObject = loadedObject.Load() is SaveProgressObject
-            ? (SaveProgressObject) loadedObject.Load()
-            : default;
+        public int currentLevel { get; private set; }
 
-        currentLevel = saveProgressObject.LevelsUnlocked;
-    }
+        private void Awake()
+        {
+            if (Instance == null)
+                Instance = this;
+        }
 
-    public void UnlockLevel()
-    {
-        currentLevel++;
+        private void Start()
+        {
+            var loadedObject = new SaveProgressSystem();
+            var saveProgressObject = loadedObject.Load() is SaveProgressObject
+                ? (SaveProgressObject) loadedObject.Load()
+                : default;
+
+            currentLevel = saveProgressObject.LevelsUnlocked;
+        }
+
+        public void UnlockLevel()
+        {
+            currentLevel++;
+        }
     }
 }

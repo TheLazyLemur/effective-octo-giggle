@@ -1,5 +1,8 @@
-﻿public interface ISaveSystem
+﻿namespace Assets._Src.Systems.Save_System
 {
-    void Save();
-    object Load();
+    public interface ISaveSystem
+    {
+        void Save();
+        object Load();
+    }
 }

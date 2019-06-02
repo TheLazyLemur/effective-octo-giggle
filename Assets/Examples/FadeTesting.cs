@@ -1,60 +1,69 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-//using OVR;
+﻿using System;
+using Assets._Src.Systems.Game_Management;
 using UnityEngine;
 
-public class FadeTesting : MonoBehaviour
+//using OVR;
+
+namespace Assets.Examples
 {
-    public bool Test;
-
-    
-    private void Update()
+    public class FadeTesting : MonoBehaviour
     {
-        if(!Test) return;
-        
-        TestInput();
-    }
+        public bool Test;
+        private FadeManager _fadeManager;
 
-    private  void TestInput()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        private void Awake()
         {
-            FadeManager.Instance.FadeOut(1, Color.black);
+            _fadeManager = FindObjectOfType<FadeManager>();
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        private void Update()
         {
-            FadeManager.Instance.FadeIn(1);
+            if (!Test) return;
+
+            TestInput();
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        private void TestInput()
         {
-            FadeManager.Instance.FadeOut(1, Color.white);
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                _fadeManager.FadeOut(1, Color.black);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                _fadeManager.FadeIn(1);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                _fadeManager.FadeOut(1, Color.white);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha4))
+            {
+                _fadeManager.FadeIn(3);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha5))
+            {
+                _fadeManager.FadeOut(1, Color.yellow, TestFunction);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha6))
+            {
+                _fadeManager.FadeIn(1, Color.yellow, TestFunction2);
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4))
+        private void TestFunction()
         {
-            FadeManager.Instance.FadeIn(3);
+            Debug.Log("Load next scene");
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha5))
+        private void TestFunction2()
         {
-            FadeManager.Instance.FadeOut(1, Color.yellow, TestFunction);
+            Debug.Log("Load next scene");
         }
-
-        if (Input.GetKeyDown(KeyCode.Alpha6))
-        {
-            FadeManager.Instance.FadeIn(1, Color.yellow, TestFunction2);
-        }
-    }
-
-    private void TestFunction()
-    {
-        Debug.Log("Load next scene");
-    }
-    
-    private void TestFunction2()
-    {
-        Debug.Log("Load next scene");
     }
 }

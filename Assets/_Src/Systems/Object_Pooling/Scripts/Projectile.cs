@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Src.Systems.Object_Pooling.Scripts
+namespace Assets._Src.Systems.Object_Pooling.Scripts
 {
     public class Projectile : MonoBehaviour
     {

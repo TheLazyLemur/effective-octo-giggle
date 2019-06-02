@@ -1,10 +1,13 @@
-﻿public class SaveGame
+﻿namespace Assets._Src.Systems.Save_System
 {
-    public void Save()
+    public class SaveGame
     {
-        var progressSave = new SaveProgressSystem();
-        var settingsSave = new SaveSettingsSystem();
+        public void Save()
+        {
+            var progressSave = new SaveProgressSystem();
+            var settingsSave = new SaveSettingsSystem();
         
-        progressSave.Save();
+            progressSave.Save();
+        }
     }
 }

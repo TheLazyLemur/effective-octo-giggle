@@ -1,31 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets._Src.Systems.Save_System;
 using UnityEngine;
 
-public class CreatureDatabase : MonoBehaviour
+namespace Assets._Src.Systems.Database
 {
-    public static CreatureDatabase Instance;
-
-    public int creaturesUnlocked { get; private set; }
-
-    private void Awake()
+    public class CreatureDatabase : MonoBehaviour
     {
-        if (Instance == null)
-            Instance = this;
-    }
+        public static CreatureDatabase Instance;
 
-    private void Start()
-    {
-        var loadedObject = new SaveProgressSystem();
-        var saveProgressObject = loadedObject.Load() is SaveProgressObject
-            ? (SaveProgressObject) loadedObject.Load()
-            : default;
+        public int creaturesUnlocked { get; private set; }
+
+        private void Awake()
+        {
+            if (Instance == null)
+                Instance = this;
+        }
+
+        private void Start()
+        {
+            var loadedObject = new SaveProgressSystem();
+            var saveProgressObject = loadedObject.Load() is SaveProgressObject
+                ? (SaveProgressObject) loadedObject.Load()
+                : default;
         
-        creaturesUnlocked = saveProgressObject.CreaturesUnlocked;
-    }
+            creaturesUnlocked = saveProgressObject.CreaturesUnlocked;
+        }
 
-    public void UnlockCreature()
-    {
-        creaturesUnlocked++;
+        public void UnlockCreature()
+        {
+            creaturesUnlocked++;
+        }
     }
 }
