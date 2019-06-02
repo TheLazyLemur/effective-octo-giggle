@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance;
-
     private AudioSource _musicSource;
     private AudioSource _musicSource2;
     private AudioSource _sfxSource;
