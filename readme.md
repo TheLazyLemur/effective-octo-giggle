@@ -66,3 +66,5 @@ The callbacks are :
  - Save system
  - Scene managment
  - Osc (Open Sound control)
+ - Scriptable object variables
+ - Scriptable object events
