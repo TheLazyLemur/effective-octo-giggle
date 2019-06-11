@@ -68,3 +68,4 @@ The callbacks are :
  - Osc (Open Sound control)
  - Scriptable object variables
  - Scriptable object events
+ - Storing game data in a database(using scores as an example)
