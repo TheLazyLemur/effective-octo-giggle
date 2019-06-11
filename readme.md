@@ -2,8 +2,6 @@
 
 A game skeleton for any future projects. Will consist of systems essential to most games made inside Unity.
 
-## Framework documentation
-
 ### Index  
 
 1. [Audio Manager](#Audio-Manager)
