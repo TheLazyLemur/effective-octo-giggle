@@ -58,3 +58,11 @@ The callbacks are :
   - Use private void FadeOut(float fadeTime) just select the time of the fade default color is black.
   - Use private void FadeOut(float fadeTime, Color fadeColor) to select a fade time and fade color
   - Use private void FadeOut(float fadeTime, Color fadeColor, Action func) to select a fade time and fade color and function to call once the fade is complete
+  
+  
+ <h2>Road Map</h2>
+ 
+ - Object pooling system
+ - Save system
+ - Scene managment
+ - Osc (Open Sound control)
