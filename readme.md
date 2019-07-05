@@ -62,10 +62,9 @@ The callbacks are :
   
  <h2>Road Map</h2>
  
- - Object pooling system
- - Save system
- - Scene managment
- - Osc (Open Sound control)
- - Scriptable object variables
- - Scriptable object events
- - Storing game data in a database(using scores as an example)
+ - Object pooling system documentation.
+ - Save system.
+ - Scene managment.
+ - Scriptable object variables.
+ - Scriptable object events.
+ - Storing game data in a database(using scores as an example).
