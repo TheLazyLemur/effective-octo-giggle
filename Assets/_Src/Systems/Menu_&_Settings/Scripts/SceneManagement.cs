@@ -28,7 +28,7 @@ namespace Assets._Src.Systems.Scripts
 
         public void StartGame()
         {
-            _fadeManager.FadeOut(5, Color.black, StartTheNextScene);
+            //_fadeManager.FadeOut(5, Color.black, StartTheNextScene);
             Debug.Log("Here");
         }
 

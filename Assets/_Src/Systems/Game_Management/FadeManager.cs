@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +27,7 @@ namespace Assets._Src.Systems.Game_Management
             if (startWithFade)
             {
                 fadeGroup.alpha = 1;
-                FadeIn(startFadeTime, startFadeColor);
+                FadeIn(startFadeTime);
             }
             else
             {
@@ -34,14 +35,16 @@ namespace Assets._Src.Systems.Game_Management
             }
         }
 
+        
+        
+        
         public void FadeIn(float fadeTime)
         {
-            FadeIn(fadeTime, fadeImage.color, null);
+            FadeIn(fadeTime,  null);
         }
 
-        public void FadeIn(float fadeTime, Color fadeColor, Action func = null)
+        public void FadeIn(float fadeTime, List<Action> func)
         {
-            fadeImage.color = fadeColor;
             if (_fadeInCoroutine != null)
             {
                 StopCoroutine(_fadeInCoroutine);
@@ -50,7 +53,28 @@ namespace Assets._Src.Systems.Game_Management
             _fadeInCoroutine = StartCoroutine(UpdateFadeIn(fadeTime, func));
         }
 
-        private IEnumerator UpdateFadeIn(float fadeTime, Action func)
+        public void FadeIn(float fadeTime, List<Action> before, List<Action> after)
+        {
+            if (_fadeInCoroutine != null)
+            {
+                StopCoroutine(_fadeInCoroutine);
+            }
+
+            _fadeInCoroutine = StartCoroutine(UpdateFadeIn(fadeTime, before, after));
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        private IEnumerator UpdateFadeIn(float fadeTime, List<Action> func)
         {
             Debug.Log("Started Fade in");
             var t = 0f;
@@ -62,17 +86,57 @@ namespace Assets._Src.Systems.Game_Management
             }
 
             fadeGroup.alpha = 0;
-            func?.Invoke();
+
+            if (func != null)
+            {
+                foreach (var action in func)
+                {
+                    action?.Invoke();
+                }
+            }
         }
+        
+        
+        private IEnumerator UpdateFadeIn(float fadeTime, List<Action> before, List<Action> after)
+        {
+            if (before != null)
+            {
+                foreach (var action in before)
+                {
+                    action?.Invoke();
+                }
+            }
+            
+            Debug.Log("Started Fade in");
+            var t = 0f;
+
+            for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
+            {
+                fadeGroup.alpha = 1 - t;
+                yield return null;
+            }
+
+            fadeGroup.alpha = 0;
+
+            if (after != null)
+            {
+                foreach (var action in after)
+                {
+                    action?.Invoke();
+                }
+            }
+        }
+        
+        
 
         public void FadeOut(float fadeTime)
         {
-            FadeOut(fadeTime, fadeImage.color, null);
+            FadeOut(fadeTime,  null);
         }
+        
 
-        public void FadeOut(float fadeTime, Color fadeColor, Action func = null)
+        public void FadeOut(float fadeTime, List<Action> func)
         {
-            fadeImage.color = fadeColor;
             if (_fadeOutCoroutine != null)
             {
                 StopCoroutine(_fadeOutCoroutine);
@@ -80,8 +144,53 @@ namespace Assets._Src.Systems.Game_Management
 
             _fadeOutCoroutine = StartCoroutine(UpdateFadeOut(fadeTime, func));
         }
+        
+        
+        public void FadeOut(float fadeTime, List<Action> before, List<Action> after )
+        {
+            if (_fadeOutCoroutine != null)
+            {
+                StopCoroutine(_fadeOutCoroutine);
+            }
 
-        private IEnumerator UpdateFadeOut(float fadeTime, Action func)
+            _fadeOutCoroutine = StartCoroutine(UpdateFadeOut(fadeTime, before, after));
+        }
+        
+        
+        private IEnumerator UpdateFadeOut(float fadeTime, List<Action> before, List<Action> after)
+        {
+            if (before != null)
+            {
+                foreach (var action in before)
+                {
+                    action?.Invoke();
+                }
+            }
+            
+            Debug.Log("Started Fade out");
+            
+            var t = 0f;
+
+            for (t = 0; t <= 1; t += Time.deltaTime / fadeTime)
+            {
+                fadeGroup.alpha = t;
+                yield return null;
+            }
+
+            fadeGroup.alpha = 1;
+
+            if (after != null)
+            {
+                foreach (var action in after)
+                {
+                    action?.Invoke();
+                }
+            }
+        }
+        
+        
+
+        private IEnumerator UpdateFadeOut(float fadeTime, List<Action> func)
         {
             Debug.Log("Started Fade out");
             var t = 0f;
@@ -93,7 +202,14 @@ namespace Assets._Src.Systems.Game_Management
             }
 
             fadeGroup.alpha = 1;
-            func?.Invoke();
+
+            if (func != null)
+            {
+                foreach (var action in func)
+                {
+                    action?.Invoke();
+                }
+            }
         }
     }
 }
