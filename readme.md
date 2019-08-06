@@ -60,10 +60,14 @@ The callbacks are :
   - Use private void FadeOut(float fadeTime, Color fadeColor, Action func) to select a fade time and fade color and function to call once the fade is complete
   
   
+ ### Automatic Code Generation
+ 
+ Added the automatic generation of static classes that refer to the current layers declared in the editor. The scripts it generated can be accessed by Layers.<LayerName> however this is now accessed through a type safe way as opposed to strings.
+  
  <h2>Road Map</h2>
  
  - Object pooling system documentation.
- - Save system.
+ - Change Save system.
  - Scene managment.
  - Scriptable object variables.
  - Scriptable object events.
